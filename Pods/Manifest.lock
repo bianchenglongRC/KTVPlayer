@@ -6,11 +6,14 @@ PODS:
     - KTVCocoaHTTPServer
   - ZFPlayer (3.2.2):
     - ZFPlayer/Core (= 3.2.2)
+  - ZFPlayer/AVPlayer (3.2.2):
+    - ZFPlayer/Core
   - ZFPlayer/Core (3.2.2)
 
 DEPENDENCIES:
   - KTVHTTPCache (~> 1.1.7)
   - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -25,6 +28,6 @@ SPEC CHECKSUMS:
   KTVHTTPCache: 5c4c0544afe4007f620879d7f6a0455ee1c02d36
   ZFPlayer: 8547effaab9e2764c2e9f72ecf32530d6bd96165
 
-PODFILE CHECKSUM: 19f007b5443878158c5ae21c9f0edfc57a5f9615
+PODFILE CHECKSUM: e3c4b8162586fb1a3c7c5dc153833d2169844f71
 
 COCOAPODS: 1.5.3
